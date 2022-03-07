@@ -1,0 +1,178 @@
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-image: url(/src/img/spaceBG.gif);
+}
+#MainLayout {
+   width: 100%;
+   height: auto;
+}
+
+/*HEADER*/
+#Header {
+    background-image: url(/src/img/rain.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center; /*Center Rows*/
+    justify-content: center; /*Center Columns*/
+    height: 200px;
+}
+#Header h1 {
+    font-family: 'CyberX-font', sans-serif;
+    font-size: clamp(45px, 6.8vw, 60px);
+    text-align: center;
+    color: white;
+}
+
+/*NAVBAR*/
+#NavBar {
+    background-image: url(/src/img/sunset.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: sticky;
+    align-items: center; /*Center Rows*/
+    justify-content: space-evenly; /*Center Columns*/
+    top: 0;
+    width: 100%;
+    height: 5vw;
+    min-height: 50px;
+    border-radius: 25px;
+    outline: 5px solid black;
+}
+#NavBar .item {
+    font-family: 'CyberX-font', sans-serif;
+    font-size: clamp(20px, 3vw, 3vw); 
+    color: white;
+}
+#NavBar .itemHome {
+    margin-right: 3.5vw;
+    width: 10%;
+    height: 5vw;
+}
+
+/*SIDE PANEL*/
+#SidePanel {
+    background: linear-gradient(180deg, rgba(55,0,164,0.7540603248259861) 50%, rgba(0,0,0,0.6519721577726219) 78%);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    float: left;
+    position: sticky;
+    align-items: center; /*Center Rows*/
+    top: 6vw;
+    width: 15%;
+    height: 75vh;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-bottom: 5vw;
+}
+#SidePanel #Planet {
+    width: 100%;
+    height: auto;
+}
+#SidePanel div {
+    font-family: 'PF Tempesta Seven', sans-serif;
+    text-align: left;
+    color: white;
+    overflow-y: auto;
+    padding-left: 5px;
+    max-height: 40%;
+}
+#SidePanel #Ship {
+    width: 50%;
+    height: auto;
+}
+
+/*HOME*/
+#Home {
+    background-image: url(/src/img/Computer.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*Center Rows*/
+    justify-content: center; /*Center Columns*/
+    width: 85%;
+    height: 100vh;
+    padding: 5vw 0;
+    margin-left: 15%;
+    text-align: center;
+    color: white;
+}
+#Home h1 {
+    background-color: rgb(0,0,0,0.50);;
+    width: 80%;
+    height: auto;
+    font-family: 'CyberX-font', sans-serif;
+    font-size: clamp(60px, 10vw, 100px);
+    text-align: center;
+    color: white;
+}
+
+/*SATURDAY SECTION*/
+#Saturday {
+    background: rgb(129,23,181);
+    background: linear-gradient(328deg, rgba(129,23,181,0.6643032212885154) 15%, rgba(13,168,177,0.7511379551820728) 62%, rgba(255,0,104,0.6278886554621849) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*Center Rows*/
+    justify-content: center; /*Center Columns*/
+    width: 85%;
+    height: auto;
+    padding: 5vw 0;
+    margin-left: 15%;
+    text-align: center;
+    color: white;
+}
+#Saturday h1 {
+    font-family: 'CyberX-font', sans-serif;
+    font-size: clamp(45px, 6.8vw, 75px); 
+}
+#Saturday p {
+    font-family: 'PF Tempesta Seven', sans-serif;
+    font-size: 18px;
+    width: 80%;   
+}
+#Saturday img {
+    display: block;
+    min-width: 80%;
+    max-width: 80%;  
+}
+
+/*SUNDAY SECTION*/
+#Sunday {
+    background: rgb(129,23,181);
+    background: linear-gradient(149deg, rgba(129,23,181,0.6643032212885154) 15%, rgba(13,168,177,0.7511379551820728) 62%, rgba(255,0,104,0.6278886554621849) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*Center Rows*/
+    justify-content: center; /*Center Columns*/
+    width: 85%;
+    height: auto;
+    padding: 5vw 0;
+    margin-left: 15%;
+    text-align: center;
+    color: white;
+}
+#Sunday h1 {
+    font-family: 'CyberX-font', sans-serif;
+    font-size: clamp(45px, 6.8vw, 75px); 
+}
+#Sunday p {
+    font-family: 'PF Tempesta Seven', sans-serif;
+    font-size: 18px;
+    width: 80%;   
+}
+#Sunday img {
+    display: block;
+    min-width: 80%;
+    max-width: 80%;  
+}
