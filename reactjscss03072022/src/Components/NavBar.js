@@ -4,9 +4,9 @@ const NavBar = () => {
     return (
         <>
             <nav id="NavBar">
-                    <Link to="/toSaturdaySection" className="item">SATURDAY</Link>
-                    <Link to="/" className="itemHome"> </Link>
-                    <Link to="/toSundaySection" className="item">SUNDAY</Link>
+                    <Link to="/reactjscss03072022/toSaturdaySection" className="item">SATURDAY</Link>
+                    <Link to="/reactjscss03072022" className="itemHome"> </Link>
+                    <Link to="/reactjscss03072022/toSundaySection" className="item">SUNDAY</Link>
             </nav>
             <Outlet />
         </>
